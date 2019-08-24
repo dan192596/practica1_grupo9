@@ -17,6 +17,7 @@ public class cubo_y_raiz_cubica {
     }
 
     public int RaizCubica(int numero) {
+        System.out.println("El número ingresado para raíz cúbica es: "+ numero);
         return (int) Math.pow((double) numero, 1.0 / 3.0);
     }
 
