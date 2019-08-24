@@ -32,4 +32,9 @@ public class Aplicacion {
         System.out.println("Si es Primo");
         return true;
     }
+
+    public static boolean EsPar(int numero){
+        return numero%2==0;
+    }
+
 }
