@@ -23,7 +23,7 @@ public class discriminante {
         double b = b1;
 
         double c = c1;
-
+ 
         // 0x^2 + 0x + 0 = 0
         if ((a == 0) && (b == 0) && (c == 0)) {
             System.out.println("La ecuación tiene infinitas soluciones.");
@@ -53,8 +53,8 @@ public class discriminante {
             if (discriminante < 0) {
                 System.out.println("La ecuación no tiene soluciones reales");
             } else {
-                //System.out.println("\nx1 = " + (-b + Math.sqrt(discriminante))/(2 * a));
-                //System.out.println("x2 = " + (-b - Math.sqrt(discriminante))/(2 * a));
+                System.out.println("\nx1 = " + (-b + Math.sqrt(discriminante))/(2 * a));
+                System.out.println("x2 = " + (-b - Math.sqrt(discriminante))/(2 * a));
             }
             System.out.println("el discriminante (b*2-4(ac) es " + discriminante);
         }
