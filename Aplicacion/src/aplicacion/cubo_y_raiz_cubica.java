@@ -10,5 +10,8 @@ package aplicacion;
  * @author Gary Joan
  */
 public class cubo_y_raiz_cubica {
+       public static int cubo(int numero){
+        return numero*numero*numero;
     
+    }
 }
