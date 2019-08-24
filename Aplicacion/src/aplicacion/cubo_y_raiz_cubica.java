@@ -17,7 +17,14 @@ public class cubo_y_raiz_cubica {
     }
 
     public int RaizCubica(int numero) {
-        return (int) Math.pow((double) numero, 1.0 / 3.0);
+        
+        if( numero > 0){
+            return (int) Math.pow((double) numero, 1.0 / 3.0);
+        }else{
+            System.out.println("Ingrese un numero distinto de 0");
+            return 0;
+        }
+        
     }
 
     public static int multiplicacion(int numero1, int numero2) {
