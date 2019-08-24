@@ -32,4 +32,12 @@ public class Aplicacion {
         System.out.println("Si es Primo");
         return true;
     }
+    
+    public static int Factorial(int numero){
+        int total = 1;
+        for(int i = 1;i<numero;i++){
+            total = total *i;
+        }
+        return total;
+    }
 }
