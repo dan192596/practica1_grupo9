@@ -14,4 +14,8 @@ public class cubo_y_raiz_cubica {
         return numero*numero*numero;
     
     }
+
+    public int RaizCubica (int numero){
+        return (int)Math.pow((double)numero, 1.0/3.0);
+    }
 }
