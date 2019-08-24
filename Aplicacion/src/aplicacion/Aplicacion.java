@@ -32,6 +32,7 @@ public class Aplicacion {
         System.out.println("Si es Primo");
         return true;
     }
+<<<<<<< HEAD
     
     public static int Factorial(int numero){
         int total = 1;
@@ -40,4 +41,11 @@ public class Aplicacion {
         }
         return total;
     }
+=======
+
+    public static boolean EsPar(int numero){
+        return numero%2==0;
+    }
+
+>>>>>>> 201403532
 }
