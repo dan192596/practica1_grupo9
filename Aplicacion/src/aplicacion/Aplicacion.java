@@ -20,14 +20,16 @@ public class Aplicacion {
     
     public static boolean EsPrimo(int numero){
         if(numero ==1||numero==0){
-            return true;
+            System.out.println("Es primo");
+            return true;            
         }else if(numero <0){
+            System.out.println("No es primo");
             return false;
         }
-        boolean EsPrimo = true;
         for(int i =2;i<numero;i++){
-            if(numero%i==0)return false;            
+            if(numero%i==0){System.out.println("No es primo"); return false;}
         }
+        System.out.println("Si es Primo");
         return true;
     }
 }
