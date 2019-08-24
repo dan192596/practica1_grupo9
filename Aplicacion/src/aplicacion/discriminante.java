@@ -23,7 +23,7 @@ public class discriminante {
         double b = b1;
 
         double c = c1;
- 
+        System.out.println("a: "+a+"b: "+b+"c: "+c);
         // 0x^2 + 0x + 0 = 0
         if ((a == 0) && (b == 0) && (c == 0)) {
             System.out.println("La ecuación tiene infinitas soluciones.");
@@ -57,11 +57,13 @@ public class discriminante {
                 System.out.println("x2 = " + (-b - Math.sqrt(discriminante))/(2 * a));
             }
             System.out.println("el discriminante (b*2-4(ac) es " + discriminante);
+            System.out.println("el cubo del discriminante es"+(discriminante*discriminante*discriminante));
         }
 
     }
 
     public int ValorAbsoluto(int numero) {
+        
         return (numero > 0) ? numero : numero * -1;
     }
 
