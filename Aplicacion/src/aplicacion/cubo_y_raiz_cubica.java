@@ -39,4 +39,10 @@ public class cubo_y_raiz_cubica {
         }
     }
 
+
+    public void mensaje_calificacion()
+    {
+        System.out.println("Este es un mensaje de calificacion");
+    }
+
 }
