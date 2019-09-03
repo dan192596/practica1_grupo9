@@ -12,5 +12,7 @@ public class area_circulo {
     {
         return (3.14159 * radio * radio);
     }
-
+    public void mostrarmensaje(){
+       System.out.println("HOLA MUNDO!!");
+    }
 }
